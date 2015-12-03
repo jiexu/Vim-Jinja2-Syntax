@@ -1,4 +1,4 @@
-This is the latest version of the Jinja2 syntax file for vim with the ability to detect either HTML or Jinja.
+This is the latest version of the Jinja2 syntax file for vim with the ability to detect either C or Jinja.
 
 There are two reasons I made this repository:
 

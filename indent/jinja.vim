@@ -1,5 +1,5 @@
 " Vim indent file
-" Language:	Jinja HTML template
+" Language:	Jinja C template
 " Maintainer:	Evan Hammer <evan@evanhammer.com>
 " Last Change:	2013 Jan 26
 
@@ -8,5 +8,5 @@ if exists("b:did_indent")
   finish
 endif
 
-" Use HTML formatting rules.
-runtime! indent/html.vim
+" Use C
+runtime! indent/c.vim

@@ -12,9 +12,9 @@
 "
 "     2008 May 9:     Added support for Jinja2 changes (new keyword rules)
 
-" .vimrc variable to disable html highlighting
-if !exists('g:jinja_syntax_html')
-   let g:jinja_syntax_html=1
+" .vimrc variable to disable c highlighting
+if !exists('g:jinja_syntax_c')
+   let g:jinja_syntax_c=1
 endif
 
 " For version 5.x: Clear all syntax items
@@ -28,12 +28,12 @@ endif
   let main_syntax = 'jinja'
 endif
 
-" Pull in the HTML syntax.
-if g:jinja_syntax_html
+" Pull in the c syntax.
+if g:jinja_syntax_c
   if version < 600
-    so <sfile>:p:h/html.vim
+    so <sfile>:p:h/c.vim
   else
-    runtime! syntax/html.vim
+    runtime! syntax/c.vim
     unlet b:current_syntax
   endif
 endif
